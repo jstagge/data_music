@@ -1,0 +1,11 @@
+
+
+# To convert from csv to midi
+csvmidi -v ce3k.csv firsttest.midi
+
+
+# To play
+timidity firsttest.midi  
+
+# To save
+timidity firsttest.midi  -Ow -o firsttest.wav

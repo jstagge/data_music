@@ -50,7 +50,11 @@ output_path <- file.path(output_path,"data_music")
 ###########################################################################
 ###  Load functions
 ###########################################################################
+### Load these functions for all code
 require(colorout)
+require(assertthat)
+
+### Load these functions for this unique project
 require(V8)
 
 source(file.path(function_path,"gen_music.R"))
